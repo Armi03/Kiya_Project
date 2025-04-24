@@ -6,6 +6,7 @@ import Checkout from './checkout';
 import Login from './login';
 import Register from './register';
 import ForgotPass from './forgot-password';
+import Shop from './shop';
 
 export default function App() {
     const location = useLocation(); // to track route changes
@@ -27,6 +28,7 @@ export default function App() {
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
                 <Route path="/forgot-password" element={<ForgotPass />} />
+                <Route path="/shop" element={<Shop />} />
 
             </Routes>
         </>
