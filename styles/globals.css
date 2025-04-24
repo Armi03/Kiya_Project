@@ -1,0 +1,289 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'almarai';
+  src: url('../public/fonts/Almarai-Bold.eot');
+  src: url('../public/fonts/Almarai-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/Almarai-Bold.woff2') format('woff2'),
+    url('../public/fonts/Almarai-Bold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'almarai';
+  src: url('../public/fonts/Almarai-Light.eot');
+  src: url('../public/fonts/Almarai-Light.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/Almarai-Light.woff2') format('woff2'),
+    url('../public/fonts/Almarai-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'almarai';
+  src: url('../public/fonts/Almarai-ExtraBold.eot');
+  src: url('../public/fonts/Almarai-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/Almarai-ExtraBold.woff2') format('woff2'),
+    url('../public/fonts/Almarai-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'almarai';
+  src: url('../public/fonts/Almarai-Regular.eot');
+  src: url('../public/fonts/Almarai-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/Almarai-Regular.woff2') format('woff2'),
+    url('../public/fonts/Almarai-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nabi';
+  src: url('../public/fonts/nabi-regular.eot');
+  src: url('../public/fonts/nabi-regular.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/nabi-regular.woff2') format('woff2'),
+    url('../public/fonts/nabi-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'montserrat';
+  src: url('../public/fonts/Montserrat-Medium.eot');
+  src: url('../public/fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/Montserrat-Medium.woff2') format('woff2'),
+    url('../public/fonts/Montserrat-Medium.woff') format('woff'),
+    url('../public/fonts/Montserrat-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'montserrat';
+  src: url('../public/fonts/Montserrat-SemiBold.eot');
+  src: url('../public/fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/Montserrat-SemiBold.woff2') format('woff2'),
+    url('../public/fonts/Montserrat-SemiBold.woff') format('woff'),
+    url('../public/fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'montserrat';
+  src: url('../public/fonts/Montserrat-Bold.eot');
+  src: url('../public/fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/Montserrat-Bold.woff2') format('woff2'),
+    url('../public/fonts/Montserrat-Bold.woff') format('woff'),
+    url('../public/fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'montserrat';
+  src: url('../public/fonts/Montserrat-Regular.eot');
+  src: url('../public/fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/Montserrat-Regular.woff2') format('woff2'),
+    url('../public/fonts/Montserrat-Regular.woff') format('woff'),
+    url('../public/fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'catchye';
+  src: url('../public/fonts/CatchyeDemo.eot');
+  src: url('../public/fonts/CatchyeDemo.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/CatchyeDemo.woff2') format('woff2'),
+    url('../public/fonts/CatchyeDemo.woff') format('woff'),
+    url('../public/fonts/CatchyeDemo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+[data-theme='caramel'] {
+  --background: theme('colors.white');
+
+  --accent-dark: theme('colors.caramel.900');
+  --accent-medium: theme('colors.caramel.400');
+  --accent-light: theme('colors.caramel.400');
+}
+
+[data-theme='pink'] {
+  --background: theme('colors.gray.900');
+  --background-secondary: theme('colors.gray.800');
+
+  --accent-dark: theme('colors.pink.900');
+  --accent-medium: theme('colors.pink.700');
+  --accent-light: theme('colors.pink.500');
+
+  --primary-dark: theme('colors.gray.300');
+  --primary-medium: theme('colors.gray.200');
+  --primary-light: theme('colors.gray.100');
+}
+
+@layer base {
+  body {
+    font-family: almarai, montserrat, system-ui, sans-serif;
+
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: nabi, catchye, system-ui, sans-serif;
+  }
+
+  .all-btn {
+    @apply bg-violet-900 hover:bg-gray-800 text-white 2xl:text-lg lg:text-[17px] text-md font-light cursor-pointer md:py-2.5 py-2 md:px-10 px-6 inline-block;
+  }
+
+  .btn-outline {
+    @apply bg-transparent hover:bg-white hover:text-gray-800 border border-white text-white 2xl:text-lg lg:text-[17px] text-md font-light cursor-pointer md:py-3.5 py-2 md:px-10 px-6 inline-block;
+  }
+
+  .swiper.swiper-horizontal {
+    @apply px-4 -mx-4;
+  }
+
+  .swiper .swiper-button-prev,
+  .swiper .swiper-button-next {
+    @apply border border-violet-900 bg-white hover:bg-violet-400 lg:w-10 w-8 lg:h-10 h-8 rounded-full text-violet-900 flex items-center justify-center mt-0 -translate-y-2/4;
+  }
+
+  .swiper .swiper-button-prev {
+    @apply left-0;
+  }
+
+  .swiper .swiper-button-next {
+    @apply right-0;
+  }
+
+  .swiper .swiper-button-next:after {
+    @apply text-[0] bg-[url('https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/right-triangle.svg')] bg-contain lg:w-5 w-4 lg:h-4 h-3.5 bg-center bg-no-repeat;
+  }
+
+  .swiper .swiper-button-prev:after {
+    @apply bg-[url('https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/left_triangle.svg')] text-[0] bg-contain lg:w-5 w-4 lg:h-4 h-3.5 bg-center bg-no-repeat;
+  }
+
+  .wp-top-arrows .swiper {
+    @apply lg:pt-20 lg:pb-0 pb-12 lg:-mt-20;
+  }
+
+  .wp-top-arrows .swiper .swiper-button-next {
+    @apply lg:top-6 lg:bottom-auto bottom-0 top-auto lg:right-0 right-4;
+  }
+
+  .wp-top-arrows .swiper .swiper-button-prev {
+    @apply lg:top-6 lg:bottom-auto bottom-0 top-auto left-auto lg:right-0 lg:right-14;
+  }
+
+  .wp-top-arrows.full-screen-slider .swiper {
+    @apply overflow-visible;
+  }
+
+  .wp-testimonial .swiper {
+    @apply static md:max-w-[90%] m-auto;
+  }
+
+  .swiper.animated_bg_slider .swiper-pagination {
+    @apply absolute md:inline-block hidden 2xl:max-w-[35%] max-w-[30%] align-middle ml-5 xl:left-[calc(50%+170px)] lg:left-[calc(50%+150px)] left-[calc(50%+120px)] xl:bottom-24 bottom-11 top-auto bg-[#d9d9d9] h-[3px];
+  }
+
+  .swiper.animated_bg_slider .swiper-pagination .swiper-pagination-progressbar-fill {
+    @apply bg-yellow-900;
+  }
+
+  .swiper.animated_thumb_slider {
+    @apply overflow-visible max-w-[250px];
+  }
+
+  .animated_bg_slider .swiper-button-prev,
+  .animated_bg_slider .swiper-button-next {
+    @apply absolute inline-flex md:left-1/2 left-auto top-auto xl:bottom-16 md:bottom-9 bottom-16 md:right-auto sm:right-12 right-8 align-middle ml-2 bg-transparent hover:bg-white border-white brightness-[400] hover:brightness-100 xl:w-16 xl:h-16 lg:w-14 lg:h-14 md:w-12 md:h-12 w-10 h-10 border-[1.5px];
+  }
+
+  .animated_bg_slider .swiper-button-next {
+    @apply xl:left-[calc(50%+75px)] md:left-[calc(50%+65px)];
+  }
+
+  .animated_bg_slider .swiper-button-prev {
+    @apply md:right-auto sm:right-24 right-20;
+  }
+
+  .animated_bg_slider .swiper-button-prev:after,
+  .animated_bg_slider .swiper-button-next:after {
+    @apply xl:w-7 xl:h-7 lg:w-6 lg:h-6 md:w-5 md:h-5 w-4 h-4 invert;
+  }
+
+  .animated_bg_slider .swiper-button-prev:after {
+    @apply -ml-1;
+  }
+
+  .animated_bg_slider .swiper-button-next:after {
+    @apply -mr-1;
+  }
+
+  .thumb_slide_wrap {
+    @apply w-1/2 absolute xl:bottom-40 lg:bottom-28 bottom-20 left-1/2 overflow-hidden w-full max-w-[50%];
+  }
+
+  .swiper.arrow-bottom .swiper-button-prev,
+  .swiper.arrow-bottom .swiper-button-next {
+    @apply static md:mt-10 mt-6 mx-2 inline-flex;
+  }
+
+  .swiper.arrow-bottom {
+    @apply text-center;
+  }
+
+  body.home-page .site-logo img{
+    @apply brightness-100
+  }
+
+  body.home-page ul.main-nav li a{
+    @apply xl:text-white
+  }
+  body.home-page ul.main-nav li{
+    @apply xl:hover:border-white
+  }
+  body.home-page .nav-div{
+    @apply border-white/20
+  }
+  body.home-page .search-white-img{
+    @apply brightness-[200]
+  }
+  body.home-page .header2{
+    @apply absolute top-0 left-0 bg-black/10
+  }
+  body.home-page button[name="mobile-menu-view"] span{
+    @apply bg-white
+  }
+  body.home-page .cart-items a{
+    @apply text-white
+  }
+  body.home-page .cart-items a img{
+    @apply brightness-[6]
+  }
+}

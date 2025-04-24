@@ -1,0 +1,42 @@
+[
+   {
+      "slug": "/single-blog",
+      "blog_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Home/Birthday-gift.jpg",
+      "blog_alt": "New bracelet",
+      "title": "New bracelet",
+      "short_des": "Lorem ipsum dolor sit consectetur adipiscing sed do eiusmod tempor incididunt ut labore dolore magna aliqua minim veniam, quis nostrud exercitation.",
+      "btn_label": "Read More",
+      "btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+      "btn_img_alt": "Read More"
+   },
+   {
+      "slug": "/single-blog",
+      "blog_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Home_2/new-york-store.jpg",
+      "blog_alt": "engage Rings",
+      "title": "Engage Rings",
+      "short_des": "Lorem ipsum dolor sit consectetur adipiscing sed do eiusmod tempor incididunt ut labore dolore magna aliqua minim veniam, quis nostrud exercitation.",
+      "btn_label": "Read More",
+      "btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+      "btn_img_alt": "Read More"
+   },
+   {
+      "slug": "/single-blog",
+      "blog_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Home/Birthday-gift.jpg",
+      "blog_alt": "New bracelet",
+      "title": "New bracelet",
+      "short_des": "Lorem ipsum dolor sit consectetur adipiscing sed do eiusmod tempor incididunt ut labore dolore magna aliqua minim veniam, quis nostrud exercitation.",
+      "btn_label": "Read More",
+      "btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+      "btn_img_alt": "Read More"
+   },
+   {
+      "slug": "/single-blog",
+      "blog_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Home_2/new-york-store.jpg",
+      "blog_alt": "Engage Rings",
+      "title": "Engage Rings",
+      "short_des": "Lorem ipsum dolor sit consectetur adipiscing sed do eiusmod tempor incididunt ut labore dolore magna aliqua minim veniam, quis nostrud exercitation.",
+      "btn_label": "Read More",
+      "btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+      "btn_img_alt": "Read More"
+   }
+]

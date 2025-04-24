@@ -1,0 +1,68 @@
+[
+   {
+       "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home_2/bracelate.png",
+       "title":" Bracelet",
+       "alt":" Bracelet",
+       "cat_link": "/collection"
+    },
+    {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home_2/earing.png",
+      "title":" Earring",
+      "alt":" Earring",
+      "cat_link": "/collection"
+    },
+    {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home_2/necklace.png",
+      "title":" Necklace",
+      "alt":" Necklace",
+      "cat_link": "/collection"
+    },
+    {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home_2/bangle.png",
+      "title":" Bangle",
+      "alt":" Bangle",
+      "cat_link": "/collection"
+    },
+    {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home_2/rings.png",
+      "title":" Ring",
+      "alt":" Ring",
+      "cat_link": "/collection"
+    },
+    {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home_2/gemstone.png",
+      "title":" Gemstone",
+      "alt":" Gemstone",
+      "cat_link": "/collection"
+    },
+    {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home_2/chain.png",
+      "title":" Chain",
+      "alt":" Chain",
+      "cat_link": "/collection"
+    },
+    {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home_2/pendant.png",
+      "title":" Pendant",
+      "alt":" Pendant",
+      "cat_link": "/collection"
+    },
+    {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home_2/belly-btn.png",
+      "title":" Belly chain",
+      "alt":" Belly chain",
+      "cat_link": "/collection"
+    },
+    {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home_2/locket.png",
+      "title":" Locket",
+      "alt":" Locket",
+      "cat_link": "/collection"
+    },
+    {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home_2/browch.png",
+      "title":" Brooch",
+      "alt":" Brooch",
+      "cat_link": "/collection"
+    }
+ ] 

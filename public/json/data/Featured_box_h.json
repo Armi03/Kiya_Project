@@ -1,0 +1,27 @@
+[
+    {
+       "img":"./img/feature-delivery.png",
+       "title":"Fast and secure delivery",
+       "alt":"Fast and secure delivery"
+    },
+    {
+      "img":"./img/feature-support.png",
+      "title":"24/7 Customer Service",
+      "alt":"24/7 Customer Service"
+   },
+   {
+      "img":"./img/feature-awward.png",
+      "title":"Unimited Lifetime Warranty",
+      "alt":"Unimited Lifetime Warranty"
+   },
+   {
+      "img":"./img/feature-discount.png",
+      "title":"Unbeatable Market Price",
+      "alt":"Unbeatable Market Price"
+   },
+   {
+      "img":"./img/feature-return.png",
+      "title":"24 Hour return policy",
+      "alt":"24 Hour return policy"
+   }
+ ]

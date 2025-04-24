@@ -1,0 +1,83 @@
+[
+    {
+       "img":"./img/bg_slide_1.jpg",
+       "sub_heading":"Lorem ipsum dolor sit amet",
+       "title":" Make A jewellery",
+       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore.",
+       "alt":" Make A jewellery",
+       "btn_label":"Shop Now",
+       "btn_slug":"/shop"
+    },
+    {
+       "img":"./img/bg_slide_2.jpg",
+       "sub_heading":"Lorem ipsum dolor sit amet",
+       "title":" Choose a choice",
+       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore.",
+       "alt":" Make A jewellery",
+       "btn_label":"Shop Now",
+       "btn_slug":"/shop"
+    },
+    {
+       "img":"./img/bg_slide_3.jpg",
+       "sub_heading":"Lorem ipsum dolor sit amet",
+       "title":" Choose a choice",
+       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore.",
+       "alt":" Make A jewellery",
+       "btn_label":"Shop Now",
+       "btn_slug":"/shop"
+    },
+    {
+       "img":"./img/bg_slide_4.jpg",
+       "sub_heading":"Lorem ipsum dolor sit amet",
+       "title":" Choose a choice",
+       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore.",
+       "alt":" Make A jewellery",
+       "btn_label":"Shop Now",
+       "btn_slug":"/shop"
+    },
+    {
+       "img":"./img/bg_slide_5.jpg",
+       "sub_heading":"Lorem ipsum dolor sit amet",
+       "title":" Choose a choice",
+       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore.",
+       "alt":" Make A jewellery",
+       "btn_label":"Shop Now",
+       "btn_slug":"/shop"
+    },
+    {
+       "img":"./img/bg_slide_1.jpg",
+       "sub_heading":"Lorem ipsum dolor sit amet",
+       "title":" Make A jewellery",
+       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore.",
+       "alt":" Make A jewellery",
+       "btn_label":"Shop Now",
+       "btn_slug":"/shop"
+    },
+    {
+       "img":"./img/bg_slide_2.jpg",
+       "sub_heading":"Lorem ipsum dolor sit amet",
+       "title":" Choose a choice",
+       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore.",
+       "alt":" Make A jewellery",
+       "btn_label":"Shop Now",
+       "btn_slug":"/shop"
+    },
+    {
+       "img":"./img/bg_slide_3.jpg",
+       "sub_heading":"Lorem ipsum dolor sit amet",
+       "title":" Choose a choice",
+       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore.",
+       "alt":" Make A jewellery",
+       "btn_label":"Shop Now",
+       "btn_slug":"/shop"
+    },
+    {
+       "img":"./img/bg_slide_4.jpg",
+       "sub_heading":"Lorem ipsum dolor sit amet",
+       "title":" Choose a choice",
+       "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore.",
+       "alt":" Make A jewellery",
+       "btn_label":"Shop Now",
+       "btn_slug":"/shop"
+    }
+ ] 

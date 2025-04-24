@@ -1,0 +1,151 @@
+[
+	{
+		"Nav_List": [
+			{
+				"child_item": [
+					{
+						"label": "Customer Service",
+						"class_name": "xl:order-1 order-2",
+						"item": [
+							{
+								"slug": "#",
+								"label": "Help Center"
+							},
+							{
+								"slug": "#",
+								"label": "Track your order"
+							},
+							{
+								"slug": "/my-account",
+								"label": "My Account"
+							},
+							{
+								"slug": "#",
+								"label": "Returns & Replacements"
+							},
+							{
+								"slug": "/contact-us",
+								"label": "Contact us"
+							},
+							{
+								"slug": "#",
+								"label": "Lifetime Free Support"
+							}
+						]
+					},
+					{
+						"label": "Get to Know Us",
+						"class_name": "xl:order-2 order-3",
+						"item": [
+							{
+								"slug": "#",
+								"label": "About us"
+							},
+							{
+								"slug": "#",
+								"label": "Careers"
+							},
+							{
+								"slug": "/blog",
+								"label": "Latest Blogs"
+							},
+							{
+								"slug": "#",
+								"label": "Leadership"
+							},
+							{
+								"slug": "/terms-and-conditions",
+								"label": "Term Policy"
+							}
+						]
+					},
+					{
+						"label": "Partnerships",
+						"class_name": "xl:order-4 order-5",
+						"item": [
+							{
+								"slug": "#",
+								"label": "Navette Fine Jewelry"
+							},
+							{
+								"slug": "#",
+								"label": "Sautoir Fine Jewelry"
+							},
+							{
+								"slug": "#",
+								"label": "Filigree & Facet "
+							},
+							{
+								"slug": "#",
+								"label": "The Center Stone"
+							}
+						]
+					},
+					{
+						"label": "Following",
+						"class_name": "xl:order-5 order-6",
+						"item": [
+							{
+								"slug": "#",
+								"label": "Facebook",
+								"target":""
+							},
+							{
+								"slug": "#",
+								"label": "Instagram",
+								"target":""
+							},
+							{
+								"slug": "#",
+								"label": "Twitter",
+								"target":""
+							},
+							{  
+								"slug": "#",
+								"label": "Linkedin",
+								"target":""
+							}
+						]
+					}
+				],
+				"logo_social": [
+					{
+						"class_name": "xl:order-3 order-1",
+						"logo_img": "../img/FooterLogo.svg",
+						"slug": "/",
+						"alt": "main-logo",
+						"copyright_txt": " © Copyright 2023 Kiya's Jewels All Right Reserved.",
+						"social": [
+							{
+								"facebook_slug": "#",
+								"instagram_slug": "#",
+								"pinterest_slug": "#",
+								"whatsapp_slug": "#",
+								"youtube_slug": "#"
+							}
+						]
+					}
+				]
+			}
+		],
+		"bottom_footer": [
+			{
+				"Email": [
+					{
+						"label": "Sign Up For Email",
+						"placeholder": "Email address",
+						"img_alt": "Email address",
+						"submit_arrow": "./img/arrow-down-right-light.svg"
+					}
+				],
+				"payment_methods": [
+					{
+						"img": "./img/paymethod.png",
+						"link": "#",
+						"img_alt": "Payment"
+					}
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,181 @@
+[
+	{
+		"top_bar": [
+			{
+				"order_tracker_label": "Order Tracking",
+				"order_tracker_slug": "#",
+				"order_tracker_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/carbon_delivery.svg",
+				"order_tracker_alt": "OrderTracking",
+				"store_locator_label": "Store Locator",
+				"store_locator_slug": "/branches",
+				"store_locator_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/pin-location.svg",
+				"store_locator_alt": "store_locator",
+				"mail_slug": "mailto:info@starryheavens.com",
+				"mail_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/mail.svg",
+				"mail_alt": "mail",
+				"mail_label": "info@starryheavens.com",
+				"call_slug": "tel:+19925078740",
+				"call_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/call.svg",
+				"call_alt": "call",
+				"call_label": " +1 992-507-8740",
+				"Lang": [
+					{
+						"id": 1,
+						"label": "English",
+						"value": "English",
+						"avatar": "https://flagcdn.com/us.svg"
+					},
+					{
+						"id": 2,
+						"label": "Argentina",
+						"value": "Argentina",
+						"avatar": "https://flagcdn.com/ar.svg"
+					},
+					{
+						"id": 3,
+						"label": "Venezuela",
+						"value": "Venezuela",
+						"avatar": "https://flagcdn.com/ve.svg"
+					},
+					{
+						"id": 4,
+						"label": "Brazil",
+						"value": "Brazil",
+						"avatar": "https://flagcdn.com/br.svg"
+					},
+					{
+						"id": 5,
+						"label": "Germany",
+						"value": "Germany",
+						"avatar": "https://flagcdn.com/de.svg"
+					},
+					{
+						"id": 6,
+						"label": "Spain",
+						"value": "Spain",
+						"avatar": "https://flagcdn.com/es.svg"
+					},
+					{
+						"id": 7,
+						"label": "France",
+						"value": "France",
+						"avatar": "https://flagcdn.com/fr.svg"
+					}
+				],
+				"Country": [
+					{
+						"id": 1,
+						"label": "USD",
+						"value": "USD"
+					},
+					{
+						"id": 2,
+						"label": "CAD",
+						"value": "CAD"
+					},
+					{
+						"id": 3,
+						"label": "ERN",
+						"value": "ERN"
+					},
+					{
+						"id": 4,
+						"label": "GMD",
+						"value": "GMD"
+					},
+					{
+						"id": 5,
+						"label": "INR",
+						"value": "INR"
+					},
+					{
+						"id": 6,
+						"label": "MVR",
+						"value": "MVR"
+					}
+				]
+			}
+		],
+		"mid_bar": [
+			{
+				"searchCategory": [
+					{
+						"searchbar_center": [
+							{
+								"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/search.svg",
+								"alt": "search",
+								"placeholder": "Search here...."
+							}
+						],
+						"Select_Category": [
+							{
+								"value": "Select Category",
+								"label": "Select Category"
+							},
+							{
+								"value": "Diamond",
+								"label": "Diamond"
+							},
+							{
+								"value": "Jewellery",
+								"label": "Jewellery"
+							},
+							{
+								"value": "Emrald",
+								"label": "Emrald"
+							}
+						]
+					}
+				],
+				"logo": [
+					{
+						"img": "./img/Kiya_Logo.svg",
+						"slug": "/",
+						"alt": "main-logo"
+					}
+				],
+				"mid_bar_right": [
+					{
+						"slug": "/cart",
+						"class2": "text-gray-800 text-[0] lg:text-sm uppercase flex items-end leading-tight",
+						"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/cart-bag.svg",
+						"alt": "cart",
+						"title": "cart",
+						"label": " 0",
+						"cart_total": "Cart - $450.00",
+						"not_for": []
+					},
+					{
+						"slug": "/login",
+						"class2": "text-gray-800 text-[0] lg:text-sm uppercase flex items-end leading-tight",
+						"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/user.svg",
+						"alt": "user",
+						"title": "user",
+						"label": " Login",
+						"not_for": []
+					}
+				]
+			}
+		],
+		"mega_menu": {
+			"main_nav": [
+				{
+					"slug": "/shop",
+					"title": "Shop"
+				},
+				{
+					"slug": "/single-shop",
+					"title": "Single Shop"
+				},
+				{
+					"slug": "/cart",
+					"title": "Cart"
+				},
+				{
+					"slug": "/checkout",
+					"title": "Checkout"
+				}
+			]
+		}
+	}
+]

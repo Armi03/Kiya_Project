@@ -1,0 +1,30 @@
+[
+    {
+       "img":"./img/new-york-store.jpg",
+       "title":"New york, US",
+       "alt":"new york, US",
+       "slug":"/branches",
+       "heading":"Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor."
+    },
+    {
+      "img":"./img/london-store.jpg",
+      "title":"london, uk",
+      "alt":"london, uk",
+      "slug":"/branches",
+      "heading":"Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor."
+   },
+   {
+      "img":"./img/japan-store.jpg",
+      "title":"Tokyo, japan",
+      "alt":"Tokyo, japan",
+      "slug":"/branches",
+      "heading":"Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor."
+   },
+   {
+      "img":"./img/singapore-store.jpg",
+      "title":"Geylang, Singapore",
+      "alt":"Geylang, Singapore",
+      "slug":"/branches",
+      "heading":"Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor."
+   }
+ ]
