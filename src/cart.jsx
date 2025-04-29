@@ -35,7 +35,7 @@ export const CustomRadio = (props) => {
 };
 export default function Cart() {
 
-  // const { items, removeItem, cartTotal, updateItemQuantity, isEmpty } = useCart();
+  const { items, removeItem, cartTotal, updateItemQuantity, isEmpty } = useCart();
 
   const [products, setproducts] = useState([]);
   const [sub_cart_total, setsub_cart_total] = useState(0);
@@ -55,22 +55,22 @@ export default function Cart() {
   // const router = useRouter()
   // const { data } = useFetchData("json/data/cart_data.json");
 
-  // useEffect(() => {
-  //   setproducts(items);
-  //   setsub_cart_total(cartTotal);
-  //   setcart_total(cartTotal + selectedValue)
-  // }, [items]);
+  useEffect(() => {
+    setproducts(items);
+    setsub_cart_total(cartTotal);
+    setcart_total(cartTotal + selectedValue)
+  }, [items]);
 
-  // if (isEmpty) {
-  //   return (
-  //     <>
-  //       <Header />
-  //       <Breadcrumb_pages breadcrumbItems={breadcrumbItems} />
-  //       <EmptyCart />
+  if (isEmpty) {
+    return (
+      <>
+        <Header />
+        <Breadcrumb_pages breadcrumbItems={breadcrumbItems} />
+        <EmptyCart />
 
-  //     </>
-  //   )
-  // };
+      </>
+    )
+  };
 
   return (
     <>
@@ -98,7 +98,7 @@ export default function Cart() {
                   return (
                     <tr key={index} className='sm:table-row block '>
                       <td className='sm:py-4 py-3 sm:table-cell hidden '>
-                        <img src={p_data.img} alt={p_data.title} title={p_data.title} className='bg-violet-400 1xl:w-[150px]  h-full 1xl:h-[150px]  object-contain p-3' width={120} height={120} />
+                        <Image src={p_data.img} alt={p_data.title} title={p_data.title} className='bg-violet-400 1xl:w-[150px]  h-full 1xl:h-[150px]  object-contain p-3' width={120} height={120} />
                       </td>
                       <td className='px-3 sm:py-4 py-3 sm:table-cell flex gap-3 items-start justify-between border-b border-gray-100/20  before:content-["product"] sm:before:hidden before:text-gray-900 before:block before:uppercase before:font-semibold'>
                         <h2 className='2xl:text-[24px] 1xl:text-[22px] lg:text[20px] text-lg text-gray-900 sm:mt-2 sm:ltr:text-left ltr:text-right sm:rtl:text-right rtl:text-left'>{p_data.title}</h2>

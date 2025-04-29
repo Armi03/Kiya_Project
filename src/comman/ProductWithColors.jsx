@@ -161,7 +161,7 @@ const ProductsWithColors = ({ initialValues }) => {
                         <div className="relative group cursor-pointer transition-all md:pb-5 pb-3">
                             <div className="relative product-box bg-white ">
                                 <div className="image-wrap overflow-hidden bg-violet-400 2xl:h-80 lg:h-64 h-60 flex items-center justify-center ">
-                                    <Link href={initialValues.link} ><img src={initialValues.img} width={250} height={250} alt={initialValues.title} title={initialValues.title} className="transition-all scale-100 group-hover:scale-105 p-4" />
+                                    <Link to={initialValues.link} ><img src={initialValues.img} width={250} height={250} alt={initialValues.title} title={initialValues.title} className="transition-all scale-100 group-hover:scale-105 p-4" />
                                     </Link>
                                     {shipped_badge}
                                     {top_badge}
